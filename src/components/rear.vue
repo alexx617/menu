@@ -320,7 +320,7 @@ export default {
             hot: false
           },
           芝士爆浆鸡扒: {
-            value: 19,
+            value: 20,
             hot: true
           },
           奥尔良鸡扒: {

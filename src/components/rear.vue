@@ -147,7 +147,7 @@ export default {
         img: {
           1: {
             url: "../static/gongzaimian.png",
-            title: "餐肉公仔面"
+            title: "餐肉加蛋公仔面"
           },
           2: {
             url: "../static/chezaimian.png",
@@ -266,7 +266,7 @@ export default {
             value: 8,
             hot: true
           },
-          餐肉公仔面: {
+          餐肉加蛋公仔面: {
             value: 9,
             hot: true
           },
@@ -274,11 +274,11 @@ export default {
             value: 10,
             hot: false
           },
-          餐肉乌冬汤面: {
+          餐肉加蛋乌冬汤面: {
             value: 10,
             hot: false
           },
-          餐肉车仔汤面: {
+          餐肉加蛋车仔汤面: {
             value: 10,
             hot: false
           },
@@ -362,7 +362,7 @@ export default {
           },
           6: {
             url: "../static/wudongtangmian.png",
-            title: "餐肉乌冬汤面"
+            title: "餐肉加蛋乌冬汤面"
           },
           7: {
             url: "../static/kaojichi.png",

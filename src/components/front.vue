@@ -322,7 +322,7 @@ export default {
         // add: `部分可加料(每份1元):<br/>红豆、椰果、西米、粒粒爽、珍珠(2元)`,
         img: {
           1: {
-            url: "../static/jinjuningmeng.png",
+            url: "../static/WechatIMG47.jpeg",
             title: "金桔柠檬茶"
           },
           2: {
@@ -457,12 +457,12 @@ export default {
       list4: {
         title: "凉爽冷品",
         list: {
-          芋圆杂锦捞: {
+          芋圆芒果捞: {
             value: 17,
             hot: false
           },
-          双球雪糕球: {
-            value: 7,
+          草莓酱双球雪糕: {
+            value: 9,
             hot: false
           },
           奥利奥雪糕球: {
@@ -487,8 +487,8 @@ export default {
         title: "暖心热饮",
         img: {
           3: {
-            url: "../static/yuyuan.png",
-            title: "芋圆杂锦捞"
+            url: "../static/WechatIMG48.jpeg",
+            title: "芋圆芒果捞"
           },
           4: {
             url: "../static/yangzhiganlu.png",
@@ -499,8 +499,8 @@ export default {
             title: "芒果班戟"
           },
           6: {
-            url: "../static/aoliao.png",
-            title: "奥利奥奶茶"
+            url: "../static/xuegaoqiu.png",
+            title: "雪糕球"
           }
         },
         list: {

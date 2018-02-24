@@ -474,7 +474,7 @@ export default {
             hot: true
           },
           粒粒爽杂果雪山: {
-            value: 16,
+            value: 17,
             hot: false
           },
           芒果西米雪山捞: {

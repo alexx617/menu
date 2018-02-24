@@ -154,8 +154,8 @@ export default {
             title: "XO酱拌车仔面"
           },
           3: {
-            url: "../static/huangjingao.png",
-            title: "椰香黄金糕"
+            url: "../static/fengzhuai.png",
+            title: "水晶凤爪"
           },
           4: {
             url: "../static/youyuhua.png",

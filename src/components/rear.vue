@@ -62,7 +62,7 @@
 									<span class="jia">+</span> 薯条 / 鸡块 / 薯饼
 									<span class="jia">+</span> 饮料
 								</p>
-								<span class="money">20元</span>
+								<span class="money">21元</span>
 								<!-- <b class="hot">热卖</b> -->
 							</div>
 							<div>

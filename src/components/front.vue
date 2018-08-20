@@ -175,10 +175,10 @@ export default {
             value: 10,
             hot: true
           },
-          桂花乌龙奶盖茶: {
-            value: 10,
-            hot: false
-          },
+          // 桂花乌龙奶盖茶: {
+          //   value: 10,
+          //   hot: false
+          // },
           水蜜桃乌龙奶盖茶: {
             value: 10,
             hot: true
@@ -195,6 +195,10 @@ export default {
             value: 10,
             hot: false
           },
+          巧克力奶盖: {
+            value: 9,
+            hot: false
+          },
           大红袍奶盖茶: {
             value: 9,
             hot: false
@@ -203,11 +207,19 @@ export default {
             value: 9,
             hot: false
           },
-          "原味奶盖茶 / 咖啡奶盖茶": {
+          "原味奶盖茶": {
             value: 9,
             hot: false
           },
-          "芒果奶盖茶 / 蓝莓奶盖茶": {
+          "咖啡奶盖茶": {
+            value: 9,
+            hot: false
+          },
+          "芒果奶盖茶": {
+            value: 9,
+            hot: false
+          },
+          "蓝莓奶盖茶": {
             value: 9,
             hot: false
           },
@@ -215,14 +227,6 @@ export default {
             value: 9,
             hot: false
           },
-          "巧克力奶盖 / 哈密瓜奶盖": {
-            value: 9,
-            hot: false
-          },
-          "麦香奶盖茶 / 提拉米苏奶盖": {
-            value: 9,
-            hot: false
-          }
         }
       },
       list2: {
@@ -258,19 +262,24 @@ export default {
             value: 15,
             hot: true
           },
-          桃胶西米糖水: {
-            value: 15,
-            hot: false
-          },
-          "鲜芒果/鲜香蕉水果肠粉": {
+          // 桃胶西米糖水: {
+          //   value: 15,
+          //   hot: false
+          // },
+          "鲜芒果水果肠粉": {
             value: 15,
             hot: true,
             noshow: true
           },
-          鲜榴莲水果肠粉: {
-            value: 20,
-            hot: false
+          "鲜香蕉水果肠粉": {
+            value: 15,
+            hot: true,
+            noshow: true
           },
+          // 鲜榴莲水果肠粉: {
+          //   value: 20,
+          //   hot: false
+          // },
           招牌杨枝甘露: {
             value: 16,
             hot: false
@@ -280,21 +289,25 @@ export default {
             hot: false
           },
           芒果西米捞: {
-            value: 13,
+            value: 14,
             hot: true
           },
-          "芒果仙草捞 / 芒果椰果捞": {
-            value: 13,
+          "芒果仙草捞": {
+            value: 14,
+            hot: false
+          },
+          "芒果椰果捞": {
+            value: 14,
             hot: false
           },
           芒果粒汤圆: {
-            value: 13,
+            value: 15,
             hot: false
           },
-          椰果红豆芒果捞: {
-            value: 13,
-            hot: false
-          },
+          // 椰果红豆芒果捞: {
+          //   value: 13,
+          //   hot: false
+          // },
           椰汁烧仙草: {
             value: 9,
             hot: true
@@ -307,7 +320,7 @@ export default {
             value: 7,
             hot: false
           },
-          "仙草西米捞 / 红豆西米捞": {
+          "红豆西米捞": {
             value: 9,
             hot: false
           },
@@ -332,7 +345,7 @@ export default {
         },
         list: {
           金桔柠檬茶: {
-            value: 9,
+            value: 10,
             hot: true
           },
           粒粒爽雪柠: {
@@ -359,10 +372,10 @@ export default {
             value: 9,
             hot: false
           },
-          草莓奶茶: {
-            value: 6,
-            hot: false
-          },
+          // 草莓奶茶: {
+          //   value: 6,
+          //   hot: false
+          // },
           西米奶茶: {
             value: 6,
             hot: false
@@ -375,7 +388,7 @@ export default {
             value: 7,
             hot: false
           },
-          纯牛奶冰: {
+          柠檬纯牛奶: {
             value: 8,
             hot: false
           },
@@ -384,7 +397,7 @@ export default {
             hot: false
           },
           百香果金桔柠茶: {
-            value: 10,
+            value: 11,
             hot: true
           },
           酸梅汁: {
@@ -399,11 +412,11 @@ export default {
             value: 8,
             hot: false
           },
-          "薄荷雪柠 / 玫瑰雪柠": {
+          "蓝莓雪柠": {
             value: 5,
             hot: false
           },
-          "草莓雪柠 / 蓝莓雪柠": {
+          "薄荷雪柠 / 玫瑰雪柠": {
             value: 5,
             hot: false
           },
@@ -416,7 +429,7 @@ export default {
             hot: false
           },
           鲜柠檬水: {
-            value: 5,
+            value: 6,
             hot: false
           }
         }
@@ -429,26 +442,26 @@ export default {
             hot: true
           },
           鲜紫薯奶露: {
-            value: 9,
+            value: 10,
             hot: false
           },
-          鲜木瓜汁: {
-            value: 9,
-            hot: false
-          },
+          // 鲜木瓜汁: {
+          //   value: 9,
+          //   hot: false
+          // },
           鲜香蕉汁: {
-            value: 9,
+            value: 10,
             hot: false
           },
           鲜火龙果汁: {
             value: 10,
             hot: false
           },
-          鲜榨西瓜汁: {
+          鲜榨雪梨汁: {
             value: 10,
             hot: false
           },
-          "鲜榨苹果汁 / 鲜榨雪梨汁": {
+          "鲜榨苹果汁": {
             value: 10,
             hot: false
           }
@@ -473,10 +486,10 @@ export default {
             value: 15,
             hot: true
           },
-          粒粒爽杂果雪山: {
-            value: 17,
-            hot: false
-          },
+          // 粒粒爽杂果雪山: {
+          //   value: 17,
+          //   hot: false
+          // },
           芒果西米雪山捞: {
             value: 16,
             hot: false
@@ -505,25 +518,21 @@ export default {
         },
         list: {
           红糖生姜茶: {
-            value: 5,
+            value: 6,
             hot: true
           },
-          "杞子红枣茶 / 可乐煲姜茶": {
-            value: 7,
+          "杞子红枣茶": {
+            value: 8,
+            hot: false
+          },
+          "可乐煲姜茶": {
+            value: 8,
             hot: false
           },
           洛神花果茶: {
             value: 8,
             hot: false
           }
-          //   可乐煲姜茶: {
-          //     value: 7,
-          //     hot: false
-          //   },
-          //   杞子红枣生姜茶: {
-          //     value: 7,
-          //     hot: false
-          //   }
         }
       }
     };
@@ -560,7 +569,7 @@ export default {
     color: #1b4924;
     div {
       padding: 4.5px 5px;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
     }
     div:nth-child(odd) {
       background: #fbded8;
@@ -604,11 +613,11 @@ export default {
   color: #ff6b00;
 }
 .img {
-  margin-top: 5px;
+  // margin-top: 5px;
   div {
     width: 160px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 18px;
     img {
       width: 160px;

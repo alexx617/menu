@@ -24,7 +24,7 @@
 					</div>
 				</div>
 			</el-col>
-			<el-col :span="6">
+			<el-col :span="6" class="marginBox">
 				<div class="listBox cold">
 					<ul>
 						<li class="list">
@@ -180,19 +180,19 @@ export default {
             hot: true
           },
           酥炸薯饼: {
-            value: 9,
+            value: 10,
             hot: false
           },
           麦乐鸡块: {
             value: 8,
             hot: false
           },
-          日式海蜇: {
-            value: 9,
-            hot: false
-          },
+          // 日式海蜇: {
+          //   value: 9,
+          //   hot: false
+          // },
           上汤水饺: {
-            value: 9,
+            value: 10,
             hot: false
           },
           咖喱鱼腐: {
@@ -204,7 +204,7 @@ export default {
             hot: false
           },
           奶香爆米花: {
-            value: 7,
+            value: 8,
             hot: false
           },
           甜酸酱煎香肠: {
@@ -220,10 +220,10 @@ export default {
             value: 10,
             hot: true
           },
-          酥炸虾饼: {
-            value: 9,
-            hot: false
-          },
+          // 酥炸虾饼: {
+          //   value: 9,
+          //   hot: false
+          // },
           奥尔良烤鸡腿: {
             value: 7,
             hot: true
@@ -294,31 +294,30 @@ export default {
             value: 10,
             hot: false
           },
-          蒜香西兰花: {
-            value: 10,
-            hot: false
-          },
-          椰香黄金糕: {
-            value: 8,
-            hot: false
-          },
-
-          酥炸绿茶饼: {
-            value: 9,
-            hot: false
-          },
+          // 蒜香西兰花: {
+          //   value: 10,
+          //   hot: false
+          // },
+          // 椰香黄金糕: {
+          //   value: 8,
+          //   hot: false
+          // },
+          // 酥炸绿茶饼: {
+          //   value: 9,
+          //   hot: false
+          // },
           凉拌青瓜: {
             value: 10,
             hot: false
           },
-          青瓜沙律: {
-            value: 10,
-            hot: false
-          },
-          鲜杂果沙律: {
-            value: 18,
-            hot: false
-          },
+          // 青瓜沙律: {
+          //   value: 10,
+          //   hot: false
+          // },
+          // 鲜杂果沙律: {
+          //   value: 18,
+          //   hot: false
+          // },
           芝士爆浆鸡扒: {
             value: 20,
             hot: true
@@ -328,17 +327,17 @@ export default {
             hot: true
           },
           香酥炸鸡排: {
-            value: 13,
+            value: 15,
             hot: true
           },
-          黑椒鸡扒: {
-            value: 14,
-            hot: true
-          }
+          // 黑椒鸡扒: {
+          //   value: 14,
+          //   hot: true
+          // }
         }
       },
       list3: {
-        title: "超值小食套餐",
+        title: "超值套餐",
         img: {
           1: {
             url: "../static/shutiao.png",
@@ -431,7 +430,7 @@ export default {
     }
     div {
       padding: 5px;
-      margin-bottom: 5px;
+      margin-bottom: 8px;
     }
     div:nth-child(odd) {
       background: #fbded8;
@@ -497,7 +496,7 @@ export default {
   color: #ff6b00;
 }
 .eatImg {
-  margin-top: 20px;
+  margin-top: 10px;
   div {
     width: 160px;
     display: inline-block;
@@ -522,8 +521,8 @@ export default {
   font-size: 24px;
   .title {
     border-bottom: 1px dotted #f7a492;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     text-align: center;
     h3 {
       font-weight: bold;
@@ -531,7 +530,7 @@ export default {
     }
   }
   div {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   h3 {
     display: inline-block;
@@ -541,5 +540,8 @@ export default {
   h5 {
     display: inline-block;
   }
+}
+.marginBox{
+  margin-top: 50px;
 }
 </style>

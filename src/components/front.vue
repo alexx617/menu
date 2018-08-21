@@ -254,7 +254,7 @@ export default {
           },
           6: {
             url: "../static/xiancaomangguo.png",
-            title: "仙草芒果捞"
+            title: "芒果仙草捞"
           }
         },
         list: {

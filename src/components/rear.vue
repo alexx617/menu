@@ -24,7 +24,7 @@
 					</div>
 				</div>
 			</el-col>
-			<el-col :span="6" class="marginBox">
+			<el-col :span="6">
 				<div class="listBox cold">
 					<ul>
 						<li class="list">
@@ -62,7 +62,7 @@
 									<span class="jia">+</span> 薯条 / 鸡块 / 薯饼
 									<span class="jia">+</span> 饮料
 								</p>
-								<span class="money">21元</span>
+								<span class="money">22元</span>
 								<!-- <b class="hot">热卖</b> -->
 							</div>
 							<div>
@@ -70,7 +70,7 @@
 									<span class="jia">+</span> 奥尔良鸡扒
 									<span class="jia">+</span> 饮料
 								</p>
-								<span class="money">24元</span>
+								<span class="money">25元</span>
 								<!-- <b class="hot">热卖</b> -->
 							</div>
 
@@ -86,7 +86,7 @@
 									<span class="jia">+</span> 奶香爆米花
 									<span class="jia">+</span> 饮料
 								</p>
-								<span class="money">16元</span>
+								<span class="money">17元</span>
 								<!-- <b class="hot">热卖</b> -->
 							</div>
 							<div>
@@ -95,14 +95,6 @@
 									<span class="jia">+</span> 饮料
 								</p>
 								<span class="money">17元</span>
-								<!-- <b class="hot">热卖</b> -->
-							</div>
-							<div>
-								<p>⑦ : 鱼蛋 / 牛肉丸
-									<span class="jia">+</span> 凉拌青瓜 / 虾饼 / 薯饼
-									<span class="jia">+</span> 饮料
-								</p>
-								<span class="money">19元</span>
 								<!-- <b class="hot">热卖</b> -->
 							</div>
 						</li>
@@ -187,10 +179,7 @@ export default {
             value: 8,
             hot: false
           },
-          // 日式海蜇: {
-          //   value: 9,
-          //   hot: false
-          // },
+          
           上汤水饺: {
             value: 10,
             hot: false
@@ -253,8 +242,16 @@ export default {
             title: "咖喱鱼腐"
           },
           4: {
-            url: "../static/xiabin.png",
-            title: "酥炸虾饼"
+            url: "../static/niurouwan.png",
+            title: "咖喱牛肉丸"
+          },
+          5: {
+            url: "../static/shubin.png",
+            title: "酥炸薯饼"
+          },
+          6: {
+            url: "../static/shengcai.png",
+            title: "蒜香生菜"
           }
         },
         list: {
@@ -306,6 +303,10 @@ export default {
           //   value: 9,
           //   hot: false
           // },
+          日式海蜇: {
+            value: 9,
+            hot: false
+          },
           凉拌青瓜: {
             value: 10,
             hot: false
@@ -473,7 +474,7 @@ export default {
   div {
     width: 160px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 18px;
     img {
       width: 160px;
@@ -496,7 +497,7 @@ export default {
   color: #ff6b00;
 }
 .eatImg {
-  margin-top: 10px;
+  margin-top: 20px;
   div {
     width: 160px;
     display: inline-block;
@@ -540,8 +541,5 @@ export default {
   h5 {
     display: inline-block;
   }
-}
-.marginBox{
-  margin-top: 50px;
 }
 </style>
